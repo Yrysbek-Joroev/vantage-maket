@@ -1,0 +1,265 @@
+@media (max-width: 1024px) {
+  header {
+    padding: 0;
+  }
+
+  .head {
+    gap: 20px;
+  }
+
+  .head > img {
+    height: 90px;
+  }
+
+  .navbar_links {
+    justify-content: center;
+  }
+
+  .vantage {
+    right: 80px;
+  }
+
+  .vantage__bot {
+    right: 0;
+    /* width: 0px; */
+  }
+
+  .navbar p:last-child {
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  .navbar_links {
+    column-gap: 15px;
+  }
+
+  .about-us {
+    padding: 100px 80px 180px;
+  }
+
+  .info__left {
+    width: 500px;
+  }
+
+  .info__right {
+    width: 300px;
+  }
+
+  .new {
+    justify-content: space-evenly;
+    margin-top: -100px;
+  }
+
+  .new-house {
+    width: 260px;
+    height: 250px;
+    background-size: 260px 200px;
+  }
+
+  .new-house p:nth-of-type(2) {
+    height: 82px;
+  }
+
+  .new-house p:last-child {
+    width: 220px;
+    height: 55px;
+  }
+
+  .inspiration {
+    margin: 100px 60px;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .above-footer {
+    padding: 68px 68px 0 68px;
+  }
+
+  form {
+    width: 753px;
+  }
+
+  form input {
+    width: 500px;
+  }
+
+  footer div {
+    width: 753px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    gap: 10px;
+  }
+
+  .head > img {
+    height: 90px;
+  }
+
+  .navbar_links {
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .navbar_links a {
+    font-size: 0.6em;
+  }
+
+  .vantage {
+    width: 420px;
+    height: 390px;
+    right: 60px;
+    top: 200px;
+    padding: 30px;
+  }
+
+  .vantage h1 {
+    font-size: 3.5em;
+    line-height: 55px;
+  }
+
+  .vantage p:nth-of-type(2) {
+    margin-top: 20px;
+  }
+
+  .vantage__btns button {
+    width: 170px;
+  }
+
+  .vantage__bot {
+    width: 350px;
+    right: 0;
+  }
+
+  .nav-media {
+    column-gap: 20px;
+  }
+
+  .about-us {
+    padding: 60px 40px 120px;
+  }
+
+  .info__left {
+    width: 400px;
+  }
+
+  .info__right {
+    width: 250px;
+  }
+
+  .about-us__counts b {
+    font-size: 2.7em;
+  }
+
+  .about-us__counts p {
+    font-size: 0.68em;
+  }
+
+  .new {
+    justify-content: space-evenly;
+    margin-top: -70px;
+  }
+
+  .new-house {
+    width: 220px;
+    height: 210px;
+    background-size: 220px 180px;
+  }
+
+  .new-house p:first-child {
+    width: 63px;
+    padding: 7px 16px;
+    font-size: 0.6em;
+  }
+
+  .new-house p:nth-of-type(2) {
+    height: 69px;
+    width: 130px;
+    font-size: 0.5em;
+  }
+
+  .new-house p:last-child {
+    font-size: 1.3em;
+    width: 180px;
+    height: 40px;
+  }
+
+  .inspiration {
+    margin: 100px 0;
+  }
+
+  .logo-services h2 {
+    font-size: 2.7em;
+  }
+
+  .services__info {
+    width: 300px;
+    padding: 20px 0 31px 55px;
+  }
+
+  .services__btn button {
+    width: 300px;
+    padding: 25px 60px;
+  }
+
+  .above-footer {
+    padding: 40px 40px 0 40px;
+  }
+
+  .above-footer__top img:nth-child(odd) {
+    width: 80px;
+  }
+
+  .above-footer__top img:nth-child(even) {
+    width: 5px;
+  }
+
+  .above-footer__bottom {
+    margin-top: 85px;
+    padding: 40px 40px 24px;
+  }
+
+  .above-footer__bottom img {
+    width: 100px;
+  }
+
+  .above-footer__bottom nav {
+    width: 380px;
+  }
+
+  .above-footer__bottom a {
+    font-size: 0.6em;
+  }
+
+  footer {
+    height: 170px;
+    width: 100%;
+  }
+
+  form {
+    width: 610px;
+    margin-top: -30px;
+    height: 150px;
+  }
+
+  form input {
+    height: 55px;
+    width: 360px;
+  }
+
+  form button {
+    height: 55px;
+    width: 100px;
+  }
+
+  footer div {
+    width: 610px;
+  }
+
+  footer nav {
+    width: 270px;
+  }
+}

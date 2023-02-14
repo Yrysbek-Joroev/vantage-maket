@@ -1,0 +1,235 @@
+@media (max-width: 426px) {
+  header {
+    padding: 0;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .burger-menu {
+    margin-top: 50px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #99823d;
+  }
+
+  .head {
+    height: 100%;
+    gap: 0;
+    background: #99823d;
+  }
+
+  .head > img {
+    height: 130px;
+  }
+
+  .header__content img {
+    display: none;
+  }
+
+  .nav-media {
+    display: none;
+  }
+
+  .vantage {
+    width: 100%;
+    position: static;
+    top: 150px;
+    right: 0;
+  }
+
+  .vantage__bot {
+    display: none;
+  }
+
+  .info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .info__left {
+    width: 100%;
+  }
+
+  .info__right {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 15px;
+  }
+
+  .info__right h3 {
+    font-size: 1.4em;
+  }
+
+  .info__right div:first-child {
+    width: 48%;
+  }
+
+  .info__right div:last-child {
+    width: 48%;
+  }
+
+  .about-us__counts {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .about-us__counts img {
+    display: none;
+  }
+
+  .new {
+    margin-top: 0;
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .services__btn {
+    margin-top: 41px;
+  }
+
+  .above-footer {
+    padding: 40px 0 40px 0;
+  }
+
+  .above-footer__top {
+    margin: 0 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .above-footer__top img:nth-child(even) {
+    display: none;
+  }
+
+  .above-footer__bottom {
+    display: none;
+    /* padding: 20px 20px; */
+  }
+
+  /* .above-footer__bottom nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 40px;
+  } */
+
+  footer {
+    height: 130px;
+  }
+
+  footer div {
+    display: none;
+    width: 100%;
+  }
+
+  form {
+    height: 100px;
+    width: 380px;
+  }
+
+  form input {
+    height: 40px;
+    width: 250px;
+  }
+
+  form button {
+    height: 40px;
+  }
+}
+
+@media (max-width: 376px) {
+  .head > img {
+    height: 110px;
+  }
+  .burger-menu {
+    margin-top: 40px;
+    width: 70px;
+  }
+
+  .vantage__btns button {
+    width: 150px;
+  }
+
+  .logo-services h2 {
+    font-size: 2.2em;
+  }
+
+  .services {
+    margin-left: 20px;
+  }
+
+  .services__btn button {
+    width: 240px;
+    font-size: 0.7em;
+    padding: 25px 30px;
+  }
+
+  form {
+    width: 320px;
+  }
+
+  form input {
+    width: 180px;
+  }
+
+  form input::placeholder {
+    width: 155px;
+    font-size: 0.5em;
+  }
+
+  footer {
+    height: 100px;
+  }
+}
+
+@media (max-width: 321px) {
+  .head > img {
+    height: 90px;
+  }
+
+  .burger-menu {
+    margin-top: 30px;
+  }
+
+  .burger-menu img {
+    width: 50px;
+  }
+
+  .vantage__btns button {
+    width: 120px;
+    height: 60px;
+  }
+
+  .services {
+    margin-left: 0;
+  }
+
+  .services__info {
+    padding: 20px 0 31px 35px;
+  }
+
+  form {
+    height: 90px;
+    width: 280px;
+  }
+
+  form input {
+    width: 170px;
+  }
+
+  form button {
+    width: 80px;
+    font-size: 0.5em;
+  }
+}
